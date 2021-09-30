@@ -1,0 +1,58 @@
+<4> $the number of levels to read in, this has to be correct and up to date
+
+#Lots'a Average#    $the levels name, displayed in the menu
+{ $start of reading
+W00101010R
+0211020102 $0= empty space, the char could be anything, just so long as its not a key
+1102101210 $1= destroyable wall
+1201020102 $2= indestructable wall
+1002101200 $W= white spawn
+1211021012 $Z= black spawn
+1002101211 $R= red spawn
+0211121102 $B= blue spawn
+0010110200
+B20200011Z
+}
+
+#Big Bang#
+{
+2000112002
+0021111101
+1110202120
+20202R0111
+101W222201
+112222Z110
+0010B20202
+1212020110
+0111111210
+2002001002
+}
+
+#Flat Lands#
+{
+W00000000R
+0000000000
+0000000000
+0001000000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+B00000000Z
+
+}
+
+#Fortress#
+{
+W00121000R
+0000020000
+0110201110
+0010120000
+0000110000
+2211221122
+0000110010
+0010120100
+0010201000
+B01002000Z
+}
